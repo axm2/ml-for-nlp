@@ -1,0 +1,50 @@
+Q1: Report similarity scores for the following pairs: (dirty,clean),(big,dirty),(big,large),(big,small)
+
+Similarity of (dirty,clean)
+0.35809702
+Similarity of (big,dirty)
+0.31531984
+Similarity of (big,large)
+0.47316137
+Similarity of (big,small)
+0.5379722
+
+Q2: Report 5 most similar items and the scores to 'polite','orange'
+
+5 most similar items and the scores to polite
+[('respectful', 0.7054284811019897),
+ ('gracious', 0.703324019908905),
+ ('courteous', 0.6848858594894409),
+ ('cheerful', 0.6522202491760254),
+ ('thoughtful', 0.6481714248657227)]
+5 most similar items and their scores to orange
+[('yellow', 0.533903181552887),
+ ('ventura', 0.5247911214828491),
+ ('riverside', 0.49417170882225037),
+ ('upturned', 0.48955097794532776),
+ ('cuyahoga', 0.48696306347846985)]
+Q3: Now change the parameters of your model as follows: window=2,size=50. Answer the 2 questions above for this new model
+
+Similarity of (dirty,clean)
+0.5236713
+Similarity of (big,dirty)
+0.4496475
+Similarity of (big,large)
+0.7133521
+Similarity of (big,small)
+0.7466693
+
+5 most similar items and the scores to polite
+[('respectful', 0.8081028461456299),
+ ('timid', 0.7878763675689697),
+ ('courteous', 0.7826941609382629),
+ ('cheerful', 0.7705578804016113),
+ ('candid', 0.7689613103866577)]
+5 most similar items and their scores to orange
+[('yellow', 0.533903181552887),
+ ('ventura', 0.5247911214828491),
+ ('riverside', 0.49417170882225037),
+ ('upturned', 0.48955097794532776),
+ ('cuyahoga', 0.48696306347846985)]
+
+ 

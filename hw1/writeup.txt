@@ -1,0 +1,71 @@
+PART 1:
+P(wi | wi-1) = [C(wi-1, wi) + 1] / C(wi-1) + V
+P(Sam | am) = [C(am, Sam) + 1] / C(am) + V
+V = 25
+C(am, Sam) = 2
+C(am) = 3
+P(am | Sam) = 2+1/3+25 = 3/28
+
+PART 2:
+Question 1: 
+Number of word types in training corpus: 41739
+
+Question 2:
+Number of word tokens in training corpus: 2568210
+
+Question 3: 
+Percentage of word types in the test corpus that did not occur in training: 0.0851063829787234%
+Percentage of word tokens in the test corpus that did not occur in training: 2.753572673405368%
+
+Question 4: 
+Percentage of bigram types that did not occur in training: 25.316990701606084
+Percentage of bigram tokens that did not occur in training: 20.95536959553696
+
+Question 5: 
+Log probability of <s> : -4.682691269922203
+Log probability of i : -8.450963962476674
+Log probability of look : -12.032588480668233
+Log probability of forward : -12.403588495460756
+Log probability of to : -5.597321004705777
+Log probability of hearing : -13.584972612278133
+Log probability of your : -11.043218291645285
+Log probability of reply : -17.591892026217923
+Log probability of . : -4.868854680279238
+Log probability of </s> : -4.682691269922203
+Unigram log probability of input: -94.93878209357644 (summation of individual log probabilities)
+
+Log probability of <s> i : -5.639534583824631
+Log probability of i look : -8.93447718627382
+Log probability of look forward : -4.172280422440442
+Log probability of forward to : -2.2448870591235344
+Log probability of to hearing : -13.110048238932082
+Log probability of hearing your : undefined
+Log probability of your reply : undefined
+Log probability of reply . : undefined
+Log probability of . </s> : -0.08460143194821208
+Bigram log probability of input: undefined (summation of individual log probabilities)
+
+Add-one Log probability of <s> i : -6.142052348726813
+Add-one Log probability of i look : -11.582788837823436
+Add-one Log probability of look forward : -10.240859462550432
+Add-one Log probability of forward to : -8.707188259410588
+Add-one Log probability of to hearing : -13.725046665121754
+Add-one Log probability of hearing your : -15.35631440692812
+Add-one Log probability of your reply : -15.390572037471506
+Add-one Log probability of reply . : -15.34955768662052
+Add-one Log probability of . </s> : -0.6451804614204727
+Add-one Bigram log probability of input: -97.13956016607362 (summation of individual log probabilities)
+
+'hearing your', 'your reply', 'reply .' had undefined log probabilities because these bigrams did not appear in training
+
+Question 6: 
+perplexity of sentence under unigram model: 721.0113746656128
+perplexity of sentence under bigram model is undefined
+perplexity of sentence under add-one bigram model: 839.83145676326
+
+Question 7: 
+perplexity of test under unigram model: 1000.2124621763833
+perplexity of test under unigram model is undefined
+perplexity of test under add-one bigram model: 1842.914568742921
+
+Lower perplexity means the model has predicts the test data well. For this test data, the unigram model would predict it better than the add-one bigram model. And the bigram model wouldn't predict it at all.
