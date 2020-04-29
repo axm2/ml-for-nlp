@@ -41,10 +41,8 @@ Similarity of (big,small)
  ('cheerful', 0.7705578804016113),
  ('candid', 0.7689613103866577)]
 5 most similar items and their scores to orange
-[('yellow', 0.533903181552887),
- ('ventura', 0.5247911214828491),
- ('riverside', 0.49417170882225037),
- ('upturned', 0.48955097794532776),
- ('cuyahoga', 0.48696306347846985)]
-
- 
+[('blue', 0.731901228427887),
+ ('poinsettia', 0.6719993948936462),
+ ('upturned', 0.6449915170669556),
+ ('calico', 0.6449728608131409),
+ ('fringed', 0.6284209489822388)]
