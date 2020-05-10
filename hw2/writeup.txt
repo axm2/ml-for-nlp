@@ -1,48 +1,47 @@
 Q1: Report similarity scores for the following pairs: (dirty,clean),(big,dirty),(big,large),(big,small)
 
 Similarity of (dirty,clean)
-0.35809702
+0.35034406
 Similarity of (big,dirty)
-0.31531984
+0.30245098
 Similarity of (big,large)
-0.47316137
+0.46044165
 Similarity of (big,small)
-0.5379722
+0.4918946
 
 Q2: Report 5 most similar items and the scores to 'polite','orange'
 
 5 most similar items and the scores to polite
-[('respectful', 0.7054284811019897),
- ('gracious', 0.703324019908905),
- ('courteous', 0.6848858594894409),
- ('cheerful', 0.6522202491760254),
- ('thoughtful', 0.6481714248657227)]
+[('respectful', 0.7213218212127686),
+ ('courteous', 0.6826084852218628),
+ ('gracious', 0.6555663347244263),
+ ('thoughtful', 0.6383759379386902),
+ ('timid', 0.6307592391967773)]
 5 most similar items and their scores to orange
-[('yellow', 0.533903181552887),
- ('ventura', 0.5247911214828491),
- ('riverside', 0.49417170882225037),
- ('upturned', 0.48955097794532776),
- ('cuyahoga', 0.48696306347846985)]
+[('emerald', 0.5249948501586914),
+ ('yellow', 0.5149500966072083),
+ ('poinsettia', 0.512459933757782),
+ ('rainbow', 0.511077344417572),
+ ('upturned', 0.5064201951026917)]
 Q3: Now change the parameters of your model as follows: window=2,size=50. Answer the 2 questions above for this new model
 
 Similarity of (dirty,clean)
-0.5236713
+0.51589286
 Similarity of (big,dirty)
-0.4496475
+0.3590638
 Similarity of (big,large)
-0.7133521
+0.68734884
 Similarity of (big,small)
-0.7466693
-
+0.7412376
 5 most similar items and the scores to polite
-[('respectful', 0.8081028461456299),
- ('timid', 0.7878763675689697),
- ('courteous', 0.7826941609382629),
- ('cheerful', 0.7705578804016113),
- ('candid', 0.7689613103866577)]
+[('respectful', 0.7732897400856018),
+ ('forthright', 0.7551865577697754),
+ ('candid', 0.7548513412475586),
+ ('timid', 0.7504361867904663),
+ ('courteous', 0.7359746694564819)]
 5 most similar items and their scores to orange
-[('blue', 0.731901228427887),
- ('poinsettia', 0.6719993948936462),
- ('upturned', 0.6449915170669556),
- ('calico', 0.6449728608131409),
- ('fringed', 0.6284209489822388)]
+[('poinsettia', 0.6807107329368591),
+ ('blue', 0.670802116394043),
+ ('alamo', 0.6484948396682739),
+ ('fringed', 0.6409817934036255),
+ ('upturned', 0.6344836354255676)]
